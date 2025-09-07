@@ -21,7 +21,6 @@ public class Assignment1 {
             System.out.println("6. View Balance");
             System.out.println("7. View prices");
             System.out.println("8. Quit");
-
             System.out.print("Enter option: ");
             choice = newScan.nextInt();
             System.out.println();
@@ -84,7 +83,7 @@ public class Assignment1 {
                 int changeChoice = newScan.nextInt();
                 if (changeChoice == 1) {
                     System.out.print("Enter new POPCORN price: $");
-                    candyPrice = newScan.nextDouble();
+                    popcornPrice = newScan.nextDouble();
                     System.out.println("POPCORN price updated.");
                 }
                 else if (changeChoice == 2) {
